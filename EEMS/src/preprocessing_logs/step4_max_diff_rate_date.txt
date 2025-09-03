@@ -1,0 +1,9 @@
+BEST max_diffrate_date P1730A, P1730B score idx:  date_compare    2024-06-21 - 2024-12-25
+score                          3.584464
+Name: 28, dtype: object
+BEST max_diffrate_date P7412A_EXT, P7412B_EXT score idx:  date_compare    2024-12-30 - 2025-02-27
+score                          3.957186
+Name: 1, dtype: object
+BEST max_diffrate_date P7412A_MCC, P7412B_MCC score idx:  date_compare    2025-01-01 - 2025-06-06
+score                          3.992404
+Name: 1005, dtype: object

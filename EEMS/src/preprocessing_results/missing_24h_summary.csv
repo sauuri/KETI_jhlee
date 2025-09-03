@@ -1,0 +1,546 @@
+motor,date,missing_reason,missing_hours,row_count
+TORAY_P1730A,2024-06-04,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",3361
+TORAY_P1730A,2024-06-06,almost_zero_mean,,23525
+TORAY_P1730A,2024-06-08,almost_zero_mean,,23513
+TORAY_P1730A,2024-06-09,almost_zero_mean,,23493
+TORAY_P1730A,2024-06-10,almost_zero_mean,,23555
+TORAY_P1730A,2024-06-11,almost_zero_mean,,23488
+TORAY_P1730A,2024-06-12,almost_zero_mean,,23476
+TORAY_P1730A,2024-06-14,almost_zero_mean,,23532
+TORAY_P1730A,2024-06-15,almost_zero_mean,,23552
+TORAY_P1730A,2024-06-16,almost_zero_mean,,23505
+TORAY_P1730A,2024-06-17,almost_zero_mean,,23542
+TORAY_P1730A,2024-06-18,almost_zero_mean,,23469
+TORAY_P1730A,2024-06-19,almost_zero_mean,,23546
+TORAY_P1730A,2024-06-20,almost_zero_mean,,23538
+TORAY_P1730A,2024-06-22,almost_zero_mean,,23534
+TORAY_P1730A,2024-06-23,almost_zero_mean,,23543
+TORAY_P1730A,2024-06-24,almost_zero_mean,,23513
+TORAY_P1730A,2024-06-25,almost_zero_mean,,23539
+TORAY_P1730A,2024-06-26,almost_zero_mean,,23457
+TORAY_P1730A,2024-06-27,almost_zero_mean,,23527
+TORAY_P1730A,2024-06-28,almost_zero_mean,,23547
+TORAY_P1730A,2024-06-29,almost_zero_mean,,23550
+TORAY_P1730A,2024-06-30,almost_zero_mean,,23496
+TORAY_P1730A,2024-07-02,almost_zero_mean,,23547
+TORAY_P1730A,2024-07-03,almost_zero_mean,,23481
+TORAY_P1730A,2024-07-04,almost_zero_mean,,23488
+TORAY_P1730A,2024-07-05,almost_zero_mean,,23504
+TORAY_P1730A,2024-07-06,almost_zero_mean,,23510
+TORAY_P1730A,2024-07-08,almost_zero_mean,,23551
+TORAY_P1730A,2024-07-09,almost_zero_mean,,23502
+TORAY_P1730A,2024-07-10,almost_zero_mean,,23525
+TORAY_P1730A,2024-07-11,almost_zero_mean,,23548
+TORAY_P1730A,2024-07-12,almost_zero_mean,,23494
+TORAY_P1730A,2024-07-13,almost_zero_mean,,23522
+TORAY_P1730A,2024-07-16,almost_zero_mean,,23470
+TORAY_P1730A,2024-07-17,almost_zero_mean,,23541
+TORAY_P1730A,2024-07-18,almost_zero_mean,,23481
+TORAY_P1730A,2024-07-19,almost_zero_mean,,23494
+TORAY_P1730A,2024-07-20,almost_zero_mean,,23476
+TORAY_P1730A,2024-07-21,almost_zero_mean,,23526
+TORAY_P1730A,2024-07-22,almost_zero_mean,,23551
+TORAY_P1730A,2024-07-24,almost_zero_mean,,23510
+TORAY_P1730A,2024-07-25,almost_zero_mean,,23528
+TORAY_P1730A,2024-07-26,almost_zero_mean,,23535
+TORAY_P1730A,2024-07-27,almost_zero_mean,,23570
+TORAY_P1730A,2024-07-29,almost_zero_mean,,23525
+TORAY_P1730A,2024-07-30,almost_zero_mean,,23539
+TORAY_P1730A,2024-08-01,almost_zero_mean,,23504
+TORAY_P1730A,2024-08-02,almost_zero_mean,,23492
+TORAY_P1730A,2024-08-04,almost_zero_mean,,23539
+TORAY_P1730A,2024-08-05,almost_zero_mean,,23444
+TORAY_P1730A,2024-08-08,almost_zero_mean,,23494
+TORAY_P1730A,2024-08-09,almost_zero_mean,,23520
+TORAY_P1730A,2024-08-11,almost_zero_mean,,23513
+TORAY_P1730A,2024-08-12,almost_zero_mean,,23511
+TORAY_P1730A,2024-08-13,almost_zero_mean,,23549
+TORAY_P1730A,2024-08-14,almost_zero_mean,,23502
+TORAY_P1730A,2024-08-15,almost_zero_mean,,23447
+TORAY_P1730A,2024-08-16,almost_zero_mean,,23476
+TORAY_P1730A,2024-08-18,almost_zero_mean,,23528
+TORAY_P1730A,2024-08-19,almost_zero_mean,,23535
+TORAY_P1730A,2024-08-20,almost_zero_mean,,23499
+TORAY_P1730A,2024-08-21,almost_zero_mean,,23545
+TORAY_P1730A,2024-08-22,almost_zero_mean,,23481
+TORAY_P1730A,2024-08-23,almost_zero_mean,,23508
+TORAY_P1730A,2024-08-24,almost_zero_mean,,23521
+TORAY_P1730A,2024-08-26,almost_zero_mean,,23486
+TORAY_P1730A,2024-08-27,almost_zero_mean,,23496
+TORAY_P1730A,2024-08-28,almost_zero_mean,,23485
+TORAY_P1730A,2024-08-29,almost_zero_mean,,23502
+TORAY_P1730A,2024-08-30,almost_zero_mean,,23539
+TORAY_P1730A,2024-08-31,almost_zero_mean,,23531
+TORAY_P1730A,2024-09-01,almost_zero_mean,,23468
+TORAY_P1730A,2024-09-02,almost_zero_mean,,23496
+TORAY_P1730A,2024-09-03,almost_zero_mean,,23526
+TORAY_P1730A,2024-09-06,almost_zero_mean,,23268
+TORAY_P1730A,2024-09-07,almost_zero_mean,,23558
+TORAY_P1730A,2024-09-09,almost_zero_mean,,23475
+TORAY_P1730A,2024-09-10,almost_zero_mean,,23488
+TORAY_P1730A,2024-09-11,almost_zero_mean,,23438
+TORAY_P1730A,2024-09-12,almost_zero_mean,,23490
+TORAY_P1730A,2024-09-13,almost_zero_mean,,23514
+TORAY_P1730A,2024-09-14,almost_zero_mean,,23490
+TORAY_P1730A,2024-09-16,almost_zero_mean,,23530
+TORAY_P1730A,2024-09-18,almost_zero_mean,,23514
+TORAY_P1730A,2024-09-19,almost_zero_mean,,23544
+TORAY_P1730A,2024-09-20,almost_zero_mean,,23469
+TORAY_P1730A,2024-09-21,almost_zero_mean,,23513
+TORAY_P1730A,2024-09-22,almost_zero_mean,,23521
+TORAY_P1730A,2024-09-23,almost_zero_mean,,23490
+TORAY_P1730A,2024-09-25,missing_hour;almost_zero_mean,"[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",7235
+TORAY_P1730A,2024-11-26,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",9752
+TORAY_P1730A,2024-11-27,almost_zero_mean,,23383
+TORAY_P1730A,2024-11-28,almost_zero_mean,,23444
+TORAY_P1730A,2024-11-29,almost_zero_mean,,23356
+TORAY_P1730A,2024-11-30,almost_zero_mean,,23446
+TORAY_P1730A,2024-12-01,almost_zero_mean,,23422
+TORAY_P1730A,2024-12-03,almost_zero_mean,,23414
+TORAY_P1730A,2024-12-04,almost_zero_mean,,23455
+TORAY_P1730A,2024-12-05,almost_zero_mean,,23316
+TORAY_P1730A,2024-12-06,almost_zero_mean,,23402
+TORAY_P1730A,2024-12-07,almost_zero_mean,,23450
+TORAY_P1730A,2024-12-08,almost_zero_mean,,23415
+TORAY_P1730A,2024-12-09,almost_zero_mean,,23405
+TORAY_P1730A,2024-12-11,almost_zero_mean,,23422
+TORAY_P1730A,2024-12-12,almost_zero_mean,,23400
+TORAY_P1730A,2024-12-13,almost_zero_mean,,23456
+TORAY_P1730A,2024-12-14,almost_zero_mean,,23419
+TORAY_P1730A,2024-12-15,almost_zero_mean,,23423
+TORAY_P1730A,2024-12-16,almost_zero_mean,,23380
+TORAY_P1730A,2024-12-17,almost_zero_mean,,23445
+TORAY_P1730A,2024-12-18,almost_zero_mean,,23430
+TORAY_P1730A,2024-12-19,almost_zero_mean,,23402
+TORAY_P1730A,2024-12-20,almost_zero_mean,,23423
+TORAY_P1730A,2024-12-21,almost_zero_mean,,23412
+TORAY_P1730A,2024-12-22,almost_zero_mean,,23426
+TORAY_P1730A,2024-12-23,almost_zero_mean,,23420
+TORAY_P1730A,2024-12-24,almost_zero_mean,,23397
+TORAY_P1730A,2024-12-26,almost_zero_mean,,23402
+TORAY_P1730A,2024-12-27,almost_zero_mean,,23405
+TORAY_P1730A,2024-12-28,almost_zero_mean,,23398
+TORAY_P1730A,2024-12-29,almost_zero_mean,,23402
+TORAY_P1730A,2024-12-30,almost_zero_mean,,23396
+TORAY_P1730A,2024-12-31,almost_zero_mean,,23406
+TORAY_P1730A,2025-01-01,almost_zero_mean,,23360
+TORAY_P1730A,2025-01-02,almost_zero_mean,,23420
+TORAY_P1730A,2025-01-03,almost_zero_mean,,23412
+TORAY_P1730A,2025-01-04,almost_zero_mean,,23457
+TORAY_P1730A,2025-01-05,almost_zero_mean,,23429
+TORAY_P1730A,2025-01-07,almost_zero_mean,,23432
+TORAY_P1730A,2025-01-08,almost_zero_mean,,23471
+TORAY_P1730A,2025-01-09,almost_zero_mean,,23404
+TORAY_P1730A,2025-01-10,almost_zero_mean,,23371
+TORAY_P1730A,2025-01-11,almost_zero_mean,,23414
+TORAY_P1730A,2025-01-12,almost_zero_mean,,23451
+TORAY_P1730A,2025-01-13,almost_zero_mean,,23447
+TORAY_P1730A,2025-01-14,almost_zero_mean,,23357
+TORAY_P1730A,2025-01-15,almost_zero_mean,,23428
+TORAY_P1730A,2025-01-16,almost_zero_mean,,23426
+TORAY_P1730A,2025-01-17,almost_zero_mean,,23451
+TORAY_P1730A,2025-01-18,almost_zero_mean,,23411
+TORAY_P1730A,2025-01-19,almost_zero_mean,,23450
+TORAY_P1730A,2025-01-20,almost_zero_mean,,23452
+TORAY_P1730A,2025-01-21,almost_zero_mean,,23173
+TORAY_P1730A,2025-01-22,almost_zero_mean,,23425
+TORAY_P1730A,2025-01-23,almost_zero_mean,,23390
+TORAY_P1730A,2025-01-24,almost_zero_mean,,23390
+TORAY_P1730A,2025-01-25,almost_zero_mean,,23378
+TORAY_P1730A,2025-01-26,almost_zero_mean,,23429
+TORAY_P1730A,2025-01-27,almost_zero_mean,,23470
+TORAY_P1730A,2025-01-28,almost_zero_mean,,23429
+TORAY_P1730A,2025-01-29,missing_hour;almost_zero_mean,"[11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",10514
+TORAY_P1730B,2024-06-04,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",3360
+TORAY_P1730B,2024-06-06,almost_zero_mean,,23524
+TORAY_P1730B,2024-06-08,almost_zero_mean,,23511
+TORAY_P1730B,2024-06-09,almost_zero_mean,,23491
+TORAY_P1730B,2024-06-10,almost_zero_mean,,23554
+TORAY_P1730B,2024-06-11,almost_zero_mean,,23486
+TORAY_P1730B,2024-06-12,almost_zero_mean,,23477
+TORAY_P1730B,2024-06-13,almost_zero_mean,,23520
+TORAY_P1730B,2024-06-14,almost_zero_mean,,23532
+TORAY_P1730B,2024-06-15,almost_zero_mean,,23552
+TORAY_P1730B,2024-06-17,almost_zero_mean,,23541
+TORAY_P1730B,2024-06-18,almost_zero_mean,,23466
+TORAY_P1730B,2024-06-19,almost_zero_mean,,23545
+TORAY_P1730B,2024-06-20,almost_zero_mean,,23533
+TORAY_P1730B,2024-06-22,almost_zero_mean,,23535
+TORAY_P1730B,2024-06-23,almost_zero_mean,,23544
+TORAY_P1730B,2024-06-24,almost_zero_mean,,23513
+TORAY_P1730B,2024-06-25,almost_zero_mean,,23537
+TORAY_P1730B,2024-06-26,almost_zero_mean,,23456
+TORAY_P1730B,2024-06-28,almost_zero_mean,,23547
+TORAY_P1730B,2024-06-29,almost_zero_mean,,23548
+TORAY_P1730B,2024-06-30,almost_zero_mean,,23494
+TORAY_P1730B,2024-07-02,almost_zero_mean,,23548
+TORAY_P1730B,2024-07-03,almost_zero_mean,,23480
+TORAY_P1730B,2024-07-04,almost_zero_mean,,23487
+TORAY_P1730B,2024-07-05,almost_zero_mean,,23506
+TORAY_P1730B,2024-07-06,almost_zero_mean,,23511
+TORAY_P1730B,2024-07-07,almost_zero_mean,,23492
+TORAY_P1730B,2024-07-08,almost_zero_mean,,23549
+TORAY_P1730B,2024-07-09,almost_zero_mean,,23501
+TORAY_P1730B,2024-07-10,almost_zero_mean,,23524
+TORAY_P1730B,2024-07-11,almost_zero_mean,,23547
+TORAY_P1730B,2024-07-12,almost_zero_mean,,23494
+TORAY_P1730B,2024-07-13,almost_zero_mean,,23521
+TORAY_P1730B,2024-07-14,almost_zero_mean,,23530
+TORAY_P1730B,2024-07-16,almost_zero_mean,,23469
+TORAY_P1730B,2024-07-17,almost_zero_mean,,23541
+TORAY_P1730B,2024-07-18,almost_zero_mean,,23480
+TORAY_P1730B,2024-07-19,almost_zero_mean,,23493
+TORAY_P1730B,2024-07-20,almost_zero_mean,,23474
+TORAY_P1730B,2024-07-21,almost_zero_mean,,23527
+TORAY_P1730B,2024-07-22,almost_zero_mean,,23550
+TORAY_P1730B,2024-07-23,almost_zero_mean,,23545
+TORAY_P1730B,2024-07-24,almost_zero_mean,,23510
+TORAY_P1730B,2024-07-25,almost_zero_mean,,23527
+TORAY_P1730B,2024-07-26,almost_zero_mean,,23537
+TORAY_P1730B,2024-07-27,almost_zero_mean,,23571
+TORAY_P1730B,2024-07-28,almost_zero_mean,,23465
+TORAY_P1730B,2024-07-29,almost_zero_mean,,23525
+TORAY_P1730B,2024-07-30,almost_zero_mean,,23538
+TORAY_P1730B,2024-08-01,almost_zero_mean,,23504
+TORAY_P1730B,2024-08-02,almost_zero_mean,,23494
+TORAY_P1730B,2024-08-03,almost_zero_mean,,23475
+TORAY_P1730B,2024-08-04,almost_zero_mean,,23541
+TORAY_P1730B,2024-08-05,almost_zero_mean,,23444
+TORAY_P1730B,2024-08-08,almost_zero_mean,,23494
+TORAY_P1730B,2024-08-09,almost_zero_mean,,23519
+TORAY_P1730B,2024-08-10,almost_zero_mean,,23451
+TORAY_P1730B,2024-08-11,almost_zero_mean,,23512
+TORAY_P1730B,2024-08-12,almost_zero_mean,,23508
+TORAY_P1730B,2024-08-13,almost_zero_mean,,23550
+TORAY_P1730B,2024-08-14,almost_zero_mean,,23503
+TORAY_P1730B,2024-08-15,almost_zero_mean,,23446
+TORAY_P1730B,2024-08-16,almost_zero_mean,,23472
+TORAY_P1730B,2024-08-17,almost_zero_mean,,23460
+TORAY_P1730B,2024-08-18,almost_zero_mean,,23529
+TORAY_P1730B,2024-08-19,almost_zero_mean,,23535
+TORAY_P1730B,2024-08-20,almost_zero_mean,,23499
+TORAY_P1730B,2024-08-21,almost_zero_mean,,23546
+TORAY_P1730B,2024-08-22,almost_zero_mean,,23481
+TORAY_P1730B,2024-08-23,almost_zero_mean,,23505
+TORAY_P1730B,2024-08-24,almost_zero_mean,,23518
+TORAY_P1730B,2024-08-25,almost_zero_mean,,23514
+TORAY_P1730B,2024-08-26,almost_zero_mean,,23487
+TORAY_P1730B,2024-08-27,almost_zero_mean,,23498
+TORAY_P1730B,2024-08-28,almost_zero_mean,,23483
+TORAY_P1730B,2024-08-29,almost_zero_mean,,23503
+TORAY_P1730B,2024-08-30,almost_zero_mean,,23539
+TORAY_P1730B,2024-08-31,almost_zero_mean,,23533
+TORAY_P1730B,2024-09-01,almost_zero_mean,,23468
+TORAY_P1730B,2024-09-02,almost_zero_mean,,23500
+TORAY_P1730B,2024-09-03,almost_zero_mean,,23528
+TORAY_P1730B,2024-09-05,almost_zero_mean,,23484
+TORAY_P1730B,2024-09-06,almost_zero_mean,,23269
+TORAY_P1730B,2024-09-07,almost_zero_mean,,23558
+TORAY_P1730B,2024-09-08,almost_zero_mean,,23507
+TORAY_P1730B,2024-09-09,almost_zero_mean,,23473
+TORAY_P1730B,2024-09-10,almost_zero_mean,,23485
+TORAY_P1730B,2024-09-11,almost_zero_mean,,23437
+TORAY_P1730B,2024-09-12,almost_zero_mean,,23488
+TORAY_P1730B,2024-09-13,almost_zero_mean,,23516
+TORAY_P1730B,2024-09-14,almost_zero_mean,,23490
+TORAY_P1730B,2024-09-15,almost_zero_mean,,23509
+TORAY_P1730B,2024-09-16,almost_zero_mean,,23528
+TORAY_P1730B,2024-09-17,almost_zero_mean,,23481
+TORAY_P1730B,2024-09-18,almost_zero_mean,,23514
+TORAY_P1730B,2024-09-19,almost_zero_mean,,23546
+TORAY_P1730B,2024-09-20,almost_zero_mean,,23470
+TORAY_P1730B,2024-09-21,almost_zero_mean,,23513
+TORAY_P1730B,2024-09-22,almost_zero_mean,,23523
+TORAY_P1730B,2024-09-23,almost_zero_mean,,23490
+TORAY_P1730B,2024-09-25,missing_hour;almost_zero_mean,"[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",7235
+TORAY_P1730B,2024-11-26,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",9751
+TORAY_P1730B,2024-11-27,almost_zero_mean,,23383
+TORAY_P1730B,2024-11-28,almost_zero_mean,,23444
+TORAY_P1730B,2024-11-29,almost_zero_mean,,23356
+TORAY_P1730B,2024-11-30,almost_zero_mean,,23446
+TORAY_P1730B,2024-12-01,almost_zero_mean,,23420
+TORAY_P1730B,2024-12-02,almost_zero_mean,,23433
+TORAY_P1730B,2024-12-03,almost_zero_mean,,23412
+TORAY_P1730B,2024-12-04,almost_zero_mean,,23452
+TORAY_P1730B,2024-12-05,almost_zero_mean,,23314
+TORAY_P1730B,2024-12-06,almost_zero_mean,,23402
+TORAY_P1730B,2024-12-07,almost_zero_mean,,23449
+TORAY_P1730B,2024-12-08,almost_zero_mean,,23413
+TORAY_P1730B,2024-12-09,almost_zero_mean,,23406
+TORAY_P1730B,2024-12-10,almost_zero_mean,,23393
+TORAY_P1730B,2024-12-11,almost_zero_mean,,23418
+TORAY_P1730B,2024-12-12,almost_zero_mean,,23400
+TORAY_P1730B,2024-12-13,almost_zero_mean,,23455
+TORAY_P1730B,2024-12-14,almost_zero_mean,,23418
+TORAY_P1730B,2024-12-15,almost_zero_mean,,23421
+TORAY_P1730B,2024-12-17,almost_zero_mean,,23445
+TORAY_P1730B,2024-12-18,almost_zero_mean,,23428
+TORAY_P1730B,2024-12-19,almost_zero_mean,,23403
+TORAY_P1730B,2024-12-20,almost_zero_mean,,23424
+TORAY_P1730B,2024-12-21,almost_zero_mean,,23414
+TORAY_P1730B,2024-12-22,almost_zero_mean,,23426
+TORAY_P1730B,2024-12-23,almost_zero_mean,,23420
+TORAY_P1730B,2024-12-24,almost_zero_mean,,23397
+TORAY_P1730B,2024-12-26,almost_zero_mean,,23403
+TORAY_P1730B,2024-12-27,almost_zero_mean,,23406
+TORAY_P1730B,2024-12-28,almost_zero_mean,,23401
+TORAY_P1730B,2024-12-29,almost_zero_mean,,23403
+TORAY_P1730B,2024-12-30,almost_zero_mean,,23395
+TORAY_P1730B,2024-12-31,almost_zero_mean,,23405
+TORAY_P1730B,2025-01-02,almost_zero_mean,,23416
+TORAY_P1730B,2025-01-03,almost_zero_mean,,23413
+TORAY_P1730B,2025-01-04,almost_zero_mean,,23457
+TORAY_P1730B,2025-01-05,almost_zero_mean,,23425
+TORAY_P1730B,2025-01-07,almost_zero_mean,,23433
+TORAY_P1730B,2025-01-08,almost_zero_mean,,23472
+TORAY_P1730B,2025-01-09,almost_zero_mean,,23403
+TORAY_P1730B,2025-01-10,almost_zero_mean,,23369
+TORAY_P1730B,2025-01-11,almost_zero_mean,,23412
+TORAY_P1730B,2025-01-13,almost_zero_mean,,23446
+TORAY_P1730B,2025-01-14,almost_zero_mean,,23355
+TORAY_P1730B,2025-01-15,almost_zero_mean,,23430
+TORAY_P1730B,2025-01-16,almost_zero_mean,,23427
+TORAY_P1730B,2025-01-17,almost_zero_mean,,23452
+TORAY_P1730B,2025-01-18,almost_zero_mean,,23413
+TORAY_P1730B,2025-01-20,almost_zero_mean,,23453
+TORAY_P1730B,2025-01-21,almost_zero_mean,,23174
+TORAY_P1730B,2025-01-22,almost_zero_mean,,23426
+TORAY_P1730B,2025-01-23,almost_zero_mean,,23392
+TORAY_P1730B,2025-01-24,almost_zero_mean,,23389
+TORAY_P1730B,2025-01-25,almost_zero_mean,,23379
+TORAY_P1730B,2025-01-27,almost_zero_mean,,23468
+TORAY_P1730B,2025-01-28,almost_zero_mean,,23430
+TORAY_P1730B,2025-01-29,missing_hour;almost_zero_mean,"[11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",10512
+TORAY_P7412A_EXT,2024-12-03,missing_hour,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",12080
+TORAY_P7412A_EXT,2024-12-31,almost_zero_mean,,23373
+TORAY_P7412A_EXT,2025-01-01,almost_zero_mean,,23384
+TORAY_P7412A_EXT,2025-01-02,almost_zero_mean,,23393
+TORAY_P7412A_EXT,2025-01-03,almost_zero_mean,,23377
+TORAY_P7412A_EXT,2025-01-04,almost_zero_mean,,23390
+TORAY_P7412A_EXT,2025-01-05,almost_zero_mean,,23400
+TORAY_P7412A_EXT,2025-01-06,almost_zero_mean,,23357
+TORAY_P7412A_EXT,2025-01-07,almost_zero_mean,,23440
+TORAY_P7412A_EXT,2025-02-28,almost_zero_mean,,23001
+TORAY_P7412A_EXT,2025-03-01,almost_zero_mean,,22969
+TORAY_P7412A_EXT,2025-03-02,almost_zero_mean,,22995
+TORAY_P7412A_EXT,2025-03-03,almost_zero_mean,,23008
+TORAY_P7412A_EXT,2025-03-04,almost_zero_mean,,22944
+TORAY_P7412A_EXT,2025-03-05,almost_zero_mean,,22931
+TORAY_P7412A_EXT,2025-03-06,almost_zero_mean,,22966
+TORAY_P7412A_EXT,2025-03-07,almost_zero_mean,,22959
+TORAY_P7412A_EXT,2025-03-08,almost_zero_mean,,22949
+TORAY_P7412A_EXT,2025-03-09,almost_zero_mean,,22981
+TORAY_P7412A_EXT,2025-03-10,almost_zero_mean,,22954
+TORAY_P7412A_EXT,2025-03-11,almost_zero_mean,,22970
+TORAY_P7412A_EXT,2025-03-12,almost_zero_mean,,22976
+TORAY_P7412A_EXT,2025-03-13,almost_zero_mean,,23011
+TORAY_P7412A_EXT,2025-03-14,almost_zero_mean,,22955
+TORAY_P7412A_EXT,2025-03-15,almost_zero_mean,,23004
+TORAY_P7412A_EXT,2025-03-16,almost_zero_mean,,22975
+TORAY_P7412A_EXT,2025-03-17,almost_zero_mean,,22932
+TORAY_P7412A_EXT,2025-03-18,almost_zero_mean,,23026
+TORAY_P7412A_EXT,2025-03-19,almost_zero_mean,,22991
+TORAY_P7412A_EXT,2025-03-20,over_1h_gap;missing_hour;almost_zero_mean,"[2, 3, 7, 14, 15, 17, 18, 19, 20, 22, 23]",1033
+TORAY_P7412A_EXT,2025-03-21,over_1h_gap;missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 16, 17, 22]",19
+TORAY_P7412A_EXT,2025-03-22,over_1h_gap;missing_hour;almost_zero_mean,"[1, 2, 3, 4, 7, 9, 10, 12, 13, 15, 19, 21, 22]",36
+TORAY_P7412A_EXT,2025-03-23,over_1h_gap;missing_hour;almost_zero_mean,"[1, 4, 8, 9, 14, 15, 16, 19, 21, 23]",38
+TORAY_P7412A_EXT,2025-03-24,over_1h_gap;missing_hour;almost_zero_mean,"[0, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",8
+TORAY_P7412A_EXT,2025-03-25,over_1h_gap;missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 23]",20
+TORAY_P7412A_EXT,2025-03-26,over_1h_gap;missing_hour;almost_zero_mean,"[0, 8, 9, 14, 15, 18, 19, 22]",71
+TORAY_P7412A_EXT,2025-03-27,over_1h_gap;missing_hour;almost_zero_mean,"[3, 15, 17, 18, 19, 20, 21, 23]",88
+TORAY_P7412A_EXT,2025-03-28,over_1h_gap;missing_hour;almost_zero_mean,"[4, 7, 13, 19]",120
+TORAY_P7412A_EXT,2025-03-29,over_1h_gap;missing_hour;almost_zero_mean,"[3, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",40
+TORAY_P7412A_EXT,2025-05-29,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",115
+TORAY_P7412A_EXT,2025-06-02,missing_hour,"[0, 1, 2, 3, 4, 5, 6, 7, 8]",13981
+TORAY_P7412A_EXT,2025-06-11,missing_hour,"[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",4281
+TORAY_P7412A_EXT,2025-07-09,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19, 20, 21, 22, 23]",518
+TORAY_P7412A_MCC,2024-12-03,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",12016
+TORAY_P7412A_MCC,2024-12-04,almost_zero_mean,,23076
+TORAY_P7412A_MCC,2024-12-07,almost_zero_mean,,22994
+TORAY_P7412A_MCC,2024-12-08,almost_zero_mean,,23016
+TORAY_P7412A_MCC,2024-12-12,almost_zero_mean,,23164
+TORAY_P7412A_MCC,2024-12-14,almost_zero_mean,,23431
+TORAY_P7412A_MCC,2024-12-16,almost_zero_mean,,23378
+TORAY_P7412A_MCC,2024-12-20,almost_zero_mean,,23379
+TORAY_P7412A_MCC,2024-12-24,almost_zero_mean,,23423
+TORAY_P7412A_MCC,2024-12-29,almost_zero_mean,,23412
+TORAY_P7412A_MCC,2024-12-31,almost_zero_mean,,23381
+TORAY_P7412A_MCC,2025-01-05,almost_zero_mean,,23398
+TORAY_P7412A_MCC,2025-01-08,almost_zero_mean,,23314
+TORAY_P7412A_MCC,2025-01-09,almost_zero_mean,,23358
+TORAY_P7412A_MCC,2025-01-12,almost_zero_mean,,23431
+TORAY_P7412A_MCC,2025-01-13,almost_zero_mean,,23358
+TORAY_P7412A_MCC,2025-01-16,almost_zero_mean,,23210
+TORAY_P7412A_MCC,2025-01-18,almost_zero_mean,,23146
+TORAY_P7412A_MCC,2025-01-19,almost_zero_mean,,23207
+TORAY_P7412A_MCC,2025-01-25,almost_zero_mean,,23190
+TORAY_P7412A_MCC,2025-01-26,almost_zero_mean,,23189
+TORAY_P7412A_MCC,2025-01-30,almost_zero_mean,,23184
+TORAY_P7412A_MCC,2025-02-01,almost_zero_mean,,23201
+TORAY_P7412A_MCC,2025-02-02,almost_zero_mean,,23121
+TORAY_P7412A_MCC,2025-02-04,almost_zero_mean,,23232
+TORAY_P7412A_MCC,2025-02-08,almost_zero_mean,,23185
+TORAY_P7412A_MCC,2025-02-14,almost_zero_mean,,23276
+TORAY_P7412A_MCC,2025-02-15,almost_zero_mean,,23196
+TORAY_P7412A_MCC,2025-02-16,almost_zero_mean,,23197
+TORAY_P7412A_MCC,2025-02-23,almost_zero_mean,,22986
+TORAY_P7412A_MCC,2025-02-27,almost_zero_mean,,22947
+TORAY_P7412A_MCC,2025-03-05,almost_zero_mean,,22913
+TORAY_P7412A_MCC,2025-03-08,almost_zero_mean,,23009
+TORAY_P7412A_MCC,2025-03-09,almost_zero_mean,,23011
+TORAY_P7412A_MCC,2025-03-12,almost_zero_mean,,22920
+TORAY_P7412A_MCC,2025-03-15,almost_zero_mean,,22739
+TORAY_P7412A_MCC,2025-03-19,almost_zero_mean,,22974
+TORAY_P7412A_MCC,2025-03-20,over_1h_gap;missing_hour,"[2, 7, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",1053
+TORAY_P7412A_MCC,2025-03-21,over_1h_gap;missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 17, 22]",26
+TORAY_P7412A_MCC,2025-03-22,over_1h_gap;missing_hour,"[1, 2, 3, 4, 9, 10, 12, 13, 19, 20, 21, 22]",41
+TORAY_P7412A_MCC,2025-03-23,over_1h_gap;missing_hour;almost_zero_mean,"[1, 4, 7, 8, 10, 15, 16, 19, 21, 23]",44
+TORAY_P7412A_MCC,2025-03-24,over_1h_gap;missing_hour;almost_zero_mean,"[0, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",11
+TORAY_P7412A_MCC,2025-03-25,over_1h_gap;missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 23]",32
+TORAY_P7412A_MCC,2025-03-26,over_1h_gap;missing_hour;almost_zero_mean,"[0, 14, 15, 19, 22]",73
+TORAY_P7412A_MCC,2025-03-27,over_1h_gap;missing_hour;almost_zero_mean,"[16, 17, 18, 19, 21, 23]",100
+TORAY_P7412A_MCC,2025-03-28,over_1h_gap;missing_hour,"[4, 7, 12, 13, 19]",152
+TORAY_P7412A_MCC,2025-03-29,over_1h_gap;missing_hour;almost_zero_mean,"[3, 4, 5, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",53
+TORAY_P7412A_MCC,2025-05-29,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",112
+TORAY_P7412A_MCC,2025-06-02,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8]",13980
+TORAY_P7412A_MCC,2025-06-11,missing_hour;almost_zero_mean,"[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",4287
+TORAY_P7412A_MCC,2025-07-09,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19, 20, 21, 22, 23]",519
+TORAY_P7412B_EXT,2024-12-03,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",12080
+TORAY_P7412B_EXT,2024-12-04,almost_zero_mean,,23055
+TORAY_P7412B_EXT,2024-12-05,almost_zero_mean,,23043
+TORAY_P7412B_EXT,2024-12-06,almost_zero_mean,,23062
+TORAY_P7412B_EXT,2024-12-07,almost_zero_mean,,23055
+TORAY_P7412B_EXT,2024-12-08,almost_zero_mean,,23042
+TORAY_P7412B_EXT,2024-12-09,almost_zero_mean,,23051
+TORAY_P7412B_EXT,2024-12-10,almost_zero_mean,,23041
+TORAY_P7412B_EXT,2024-12-11,almost_zero_mean,,22986
+TORAY_P7412B_EXT,2024-12-12,almost_zero_mean,,23153
+TORAY_P7412B_EXT,2024-12-13,almost_zero_mean,,23164
+TORAY_P7412B_EXT,2024-12-14,almost_zero_mean,,23415
+TORAY_P7412B_EXT,2024-12-15,almost_zero_mean,,23460
+TORAY_P7412B_EXT,2024-12-16,almost_zero_mean,,23378
+TORAY_P7412B_EXT,2024-12-17,almost_zero_mean,,23441
+TORAY_P7412B_EXT,2024-12-18,almost_zero_mean,,23405
+TORAY_P7412B_EXT,2024-12-19,almost_zero_mean,,23351
+TORAY_P7412B_EXT,2024-12-20,almost_zero_mean,,23442
+TORAY_P7412B_EXT,2024-12-21,almost_zero_mean,,23352
+TORAY_P7412B_EXT,2024-12-22,almost_zero_mean,,23444
+TORAY_P7412B_EXT,2024-12-23,almost_zero_mean,,23370
+TORAY_P7412B_EXT,2024-12-24,almost_zero_mean,,23352
+TORAY_P7412B_EXT,2024-12-25,almost_zero_mean,,23427
+TORAY_P7412B_EXT,2024-12-26,almost_zero_mean,,23413
+TORAY_P7412B_EXT,2024-12-27,almost_zero_mean,,23404
+TORAY_P7412B_EXT,2024-12-28,almost_zero_mean,,23435
+TORAY_P7412B_EXT,2024-12-29,almost_zero_mean,,23407
+TORAY_P7412B_EXT,2025-01-09,almost_zero_mean,,23433
+TORAY_P7412B_EXT,2025-01-10,almost_zero_mean,,23378
+TORAY_P7412B_EXT,2025-01-11,almost_zero_mean,,23384
+TORAY_P7412B_EXT,2025-01-12,almost_zero_mean,,23437
+TORAY_P7412B_EXT,2025-01-13,almost_zero_mean,,23395
+TORAY_P7412B_EXT,2025-01-14,almost_zero_mean,,23378
+TORAY_P7412B_EXT,2025-01-15,almost_zero_mean,,23300
+TORAY_P7412B_EXT,2025-01-16,almost_zero_mean,,23169
+TORAY_P7412B_EXT,2025-01-17,almost_zero_mean,,23189
+TORAY_P7412B_EXT,2025-01-18,almost_zero_mean,,23172
+TORAY_P7412B_EXT,2025-01-19,almost_zero_mean,,23169
+TORAY_P7412B_EXT,2025-01-20,almost_zero_mean,,23231
+TORAY_P7412B_EXT,2025-01-21,almost_zero_mean,,23177
+TORAY_P7412B_EXT,2025-01-22,almost_zero_mean,,23276
+TORAY_P7412B_EXT,2025-01-23,almost_zero_mean,,23254
+TORAY_P7412B_EXT,2025-01-24,almost_zero_mean,,23243
+TORAY_P7412B_EXT,2025-01-25,almost_zero_mean,,23213
+TORAY_P7412B_EXT,2025-01-26,almost_zero_mean,,23167
+TORAY_P7412B_EXT,2025-01-27,almost_zero_mean,,23229
+TORAY_P7412B_EXT,2025-01-28,almost_zero_mean,,23141
+TORAY_P7412B_EXT,2025-01-29,almost_zero_mean,,23171
+TORAY_P7412B_EXT,2025-01-30,almost_zero_mean,,23180
+TORAY_P7412B_EXT,2025-01-31,almost_zero_mean,,23201
+TORAY_P7412B_EXT,2025-02-01,almost_zero_mean,,23156
+TORAY_P7412B_EXT,2025-02-02,almost_zero_mean,,23180
+TORAY_P7412B_EXT,2025-02-03,almost_zero_mean,,23208
+TORAY_P7412B_EXT,2025-02-04,almost_zero_mean,,23207
+TORAY_P7412B_EXT,2025-02-05,almost_zero_mean,,23241
+TORAY_P7412B_EXT,2025-02-06,almost_zero_mean,,23176
+TORAY_P7412B_EXT,2025-02-07,almost_zero_mean,,23276
+TORAY_P7412B_EXT,2025-02-08,almost_zero_mean,,23166
+TORAY_P7412B_EXT,2025-02-09,almost_zero_mean,,23205
+TORAY_P7412B_EXT,2025-02-10,almost_zero_mean,,23169
+TORAY_P7412B_EXT,2025-02-11,almost_zero_mean,,23248
+TORAY_P7412B_EXT,2025-02-12,almost_zero_mean,,23233
+TORAY_P7412B_EXT,2025-02-13,almost_zero_mean,,23288
+TORAY_P7412B_EXT,2025-02-14,almost_zero_mean,,23255
+TORAY_P7412B_EXT,2025-02-15,almost_zero_mean,,23206
+TORAY_P7412B_EXT,2025-02-16,almost_zero_mean,,23216
+TORAY_P7412B_EXT,2025-02-17,almost_zero_mean,,23222
+TORAY_P7412B_EXT,2025-02-18,almost_zero_mean,,23322
+TORAY_P7412B_EXT,2025-02-19,almost_zero_mean,,23472
+TORAY_P7412B_EXT,2025-02-20,almost_zero_mean,,23425
+TORAY_P7412B_EXT,2025-02-21,almost_zero_mean,,22794
+TORAY_P7412B_EXT,2025-02-22,almost_zero_mean,,22963
+TORAY_P7412B_EXT,2025-02-23,almost_zero_mean,,22958
+TORAY_P7412B_EXT,2025-02-24,almost_zero_mean,,23012
+TORAY_P7412B_EXT,2025-02-25,almost_zero_mean,,23010
+TORAY_P7412B_EXT,2025-02-26,almost_zero_mean,,22890
+TORAY_P7412B_EXT,2025-03-20,over_1h_gap;missing_hour,"[2, 3, 7, 14, 17, 18, 19, 20, 22, 23]",1059
+TORAY_P7412B_EXT,2025-03-21,over_1h_gap;missing_hour,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 22]",24
+TORAY_P7412B_EXT,2025-03-22,over_1h_gap;missing_hour,"[1, 2, 4, 9, 10, 12, 13, 15, 19, 21, 22]",41
+TORAY_P7412B_EXT,2025-03-23,over_1h_gap;missing_hour,"[1, 4, 8, 12, 15, 16, 19, 21, 23]",44
+TORAY_P7412B_EXT,2025-03-24,over_1h_gap;missing_hour,"[0, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",5
+TORAY_P7412B_EXT,2025-03-25,over_1h_gap;missing_hour,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 23]",22
+TORAY_P7412B_EXT,2025-03-26,over_1h_gap;missing_hour,"[0, 5, 8, 12, 14, 15, 19, 22]",78
+TORAY_P7412B_EXT,2025-03-27,over_1h_gap;missing_hour,"[13, 17, 18, 19, 21, 23]",94
+TORAY_P7412B_EXT,2025-03-28,over_1h_gap;missing_hour,"[4, 7, 10, 13, 19]",153
+TORAY_P7412B_EXT,2025-03-29,over_1h_gap;missing_hour,"[3, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",56
+TORAY_P7412B_EXT,2025-05-29,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",110
+TORAY_P7412B_EXT,2025-06-02,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8]",13981
+TORAY_P7412B_EXT,2025-06-03,almost_zero_mean,,23191
+TORAY_P7412B_EXT,2025-06-04,almost_zero_mean,,23060
+TORAY_P7412B_EXT,2025-06-05,almost_zero_mean,,23108
+TORAY_P7412B_EXT,2025-06-06,almost_zero_mean,,23141
+TORAY_P7412B_EXT,2025-06-07,almost_zero_mean,,23138
+TORAY_P7412B_EXT,2025-06-08,almost_zero_mean,,23136
+TORAY_P7412B_EXT,2025-06-09,almost_zero_mean,,23086
+TORAY_P7412B_EXT,2025-06-10,almost_zero_mean,,23072
+TORAY_P7412B_EXT,2025-06-11,missing_hour;almost_zero_mean,"[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",4281
+TORAY_P7412B_EXT,2025-07-09,missing_hour,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19, 20, 21, 22, 23]",518
+TORAY_P7412B_MCC,2024-12-03,missing_hour,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",12015
+TORAY_P7412B_MCC,2025-01-05,almost_zero_mean,,23397
+TORAY_P7412B_MCC,2025-01-12,almost_zero_mean,,23431
+TORAY_P7412B_MCC,2025-01-15,almost_zero_mean,,23321
+TORAY_P7412B_MCC,2025-01-16,almost_zero_mean,,23211
+TORAY_P7412B_MCC,2025-01-17,almost_zero_mean,,23190
+TORAY_P7412B_MCC,2025-01-21,almost_zero_mean,,23216
+TORAY_P7412B_MCC,2025-01-25,almost_zero_mean,,23189
+TORAY_P7412B_MCC,2025-01-26,almost_zero_mean,,23187
+TORAY_P7412B_MCC,2025-01-27,almost_zero_mean,,23209
+TORAY_P7412B_MCC,2025-01-28,almost_zero_mean,,23216
+TORAY_P7412B_MCC,2025-02-01,almost_zero_mean,,23201
+TORAY_P7412B_MCC,2025-02-02,almost_zero_mean,,23121
+TORAY_P7412B_MCC,2025-02-03,almost_zero_mean,,23237
+TORAY_P7412B_MCC,2025-02-04,almost_zero_mean,,23230
+TORAY_P7412B_MCC,2025-02-08,almost_zero_mean,,23182
+TORAY_P7412B_MCC,2025-02-14,almost_zero_mean,,23273
+TORAY_P7412B_MCC,2025-02-16,almost_zero_mean,,23193
+TORAY_P7412B_MCC,2025-02-19,almost_zero_mean,,23413
+TORAY_P7412B_MCC,2025-02-20,almost_zero_mean,,23425
+TORAY_P7412B_MCC,2025-02-24,almost_zero_mean,,22956
+TORAY_P7412B_MCC,2025-02-25,almost_zero_mean,,22959
+TORAY_P7412B_MCC,2025-02-26,almost_zero_mean,,23008
+TORAY_P7412B_MCC,2025-03-06,over_1h_gap;almost_zero_mean,,21944
+TORAY_P7412B_MCC,2025-03-20,over_1h_gap;missing_hour,"[2, 7, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23]",1036
+TORAY_P7412B_MCC,2025-03-21,over_1h_gap;missing_hour,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 22]",29
+TORAY_P7412B_MCC,2025-03-22,over_1h_gap;missing_hour,"[1, 2, 3, 4, 9, 10, 12, 13, 19, 20, 21, 22]",40
+TORAY_P7412B_MCC,2025-03-23,over_1h_gap;missing_hour,"[1, 4, 8, 9, 15, 16, 19, 21, 23]",41
+TORAY_P7412B_MCC,2025-03-24,over_1h_gap;missing_hour,"[0, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",14
+TORAY_P7412B_MCC,2025-03-25,over_1h_gap;missing_hour,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18]",29
+TORAY_P7412B_MCC,2025-03-26,over_1h_gap;missing_hour,"[0, 12, 14, 15, 19, 22]",77
+TORAY_P7412B_MCC,2025-03-27,over_1h_gap;missing_hour,"[3, 12, 16, 17, 18, 19, 21, 23]",83
+TORAY_P7412B_MCC,2025-03-28,over_1h_gap;missing_hour,"[0, 1, 4, 5, 7, 10, 13, 19]",162
+TORAY_P7412B_MCC,2025-03-29,over_1h_gap;missing_hour,"[3, 4, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",56
+TORAY_P7412B_MCC,2025-05-29,missing_hour,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",116
+TORAY_P7412B_MCC,2025-06-02,missing_hour,"[0, 1, 2, 3, 4, 5, 6, 7, 8]",13979
+TORAY_P7412B_MCC,2025-06-07,almost_zero_mean,,23133
+TORAY_P7412B_MCC,2025-06-08,almost_zero_mean,,23140
+TORAY_P7412B_MCC,2025-06-09,almost_zero_mean,,23089
+TORAY_P7412B_MCC,2025-06-11,missing_hour;almost_zero_mean,"[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",4286
+TORAY_P7412B_MCC,2025-07-09,missing_hour;almost_zero_mean,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19, 20, 21, 22, 23]",518

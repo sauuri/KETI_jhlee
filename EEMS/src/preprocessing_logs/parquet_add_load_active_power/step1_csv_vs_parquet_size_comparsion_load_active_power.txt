@@ -1,0 +1,136 @@
+Do you want to include instantaneous power ('Load_Active_Power')? [y/n]: y
+[1] Processing file: Toray_inner_250529_1_with_header.csv
+Start time:               2024-06-04 20:36:43.223000000
+End time:                 2024-06-26 02:46:31.147000000
+Disk file size (CSV):     378.366 MB
+Disk file size (Parquet): 7.527 MB
+Disk space reduction:     98.0%
+
+[2] Processing file: Toray_inner_250529_2_with_header.csv
+Start time:               2024-06-26 02:46:31.147000000
+End time:                 2024-07-17 09:06:21.900000000
+Disk file size (CSV):     376.178 MB
+Disk file size (Parquet): 7.446 MB
+Disk space reduction:     98.0%
+
+[3] Processing file: Toray_inner_250529_3_with_header.csv
+Start time:               2024-07-17 09:06:21.900000000
+End time:                 2024-08-07 15:35:29.063000000
+Disk file size (CSV):     377.033 MB
+Disk file size (Parquet): 7.437 MB
+Disk space reduction:     98.0%
+
+[4] Processing file: Toray_inner_250529_4_with_header.csv
+Start time:               2024-08-07 15:35:29.063000000
+End time:                 2024-08-28 22:08:41.087000000
+Disk file size (CSV):     377.077 MB
+Disk file size (Parquet): 7.430 MB
+Disk space reduction:     98.0%
+
+[5] Processing file: Toray_inner_250529_5_with_header.csv
+Start time:               2024-08-28 22:08:41.087000000
+End time:                 2024-09-19 04:58:07.017000000
+Disk file size (CSV):     373.698 MB
+Disk file size (Parquet): 7.424 MB
+Disk space reduction:     98.0%
+
+[6] Processing file: Toray_inner_250529_6_with_header.csv
+Start time:               2024-09-19 04:58:07.017000000
+End time:                 2024-12-11 19:38:51.657000000
+Disk file size (CSV):     374.216 MB
+Disk file size (Parquet): 7.475 MB
+Disk space reduction:     98.0%
+
+[7] Processing file: Toray_inner_250529_7_with_header.csv
+Start time:               2024-12-11 19:38:51.657000000
+End time:                 2025-01-02 04:15:56.590000000
+Disk file size (CSV):     376.935 MB
+Disk file size (Parquet): 7.492 MB
+Disk space reduction:     98.0%
+
+[8] Processing file: Toray_inner_250529_8_with_header.csv
+Start time:               2025-01-02 04:15:56.590000000
+End time:                 2025-01-23 12:46:37.523000000
+Disk file size (CSV):     374.212 MB
+Disk file size (Parquet): 7.461 MB
+Disk space reduction:     98.0%
+
+[9] Processing file: Toray_inner_250529_9_with_header.csv
+Start time:               2025-01-23 12:46:37.523000000
+End time:                 2025-01-29 10:46:34.423000000
+Disk file size (CSV):     103.808 MB
+Disk file size (Parquet): 2.118 MB
+Disk space reduction:     98.0%
+
+[10] Processing file: Toray_outer_250529_1_with_header.csv
+Start time:               2024-12-03 11:29:12.330000000
+End time:                 2024-12-14 07:30:37.500000000
+Disk file size (CSV):     394.116 MB
+Disk file size (Parquet): 10.061 MB
+Disk space reduction:     97.4%
+
+[11] Processing file: Toray_outer_250529_2_with_header.csv
+Start time:               2024-12-14 07:30:37.500000000
+End time:                 2024-12-24 23:54:55.193000000
+Disk file size (CSV):     393.530 MB
+Disk file size (Parquet): 9.965 MB
+Disk space reduction:     97.5%
+
+[12] Processing file: Toray_outer_250529_3_with_header.csv
+Start time:               2024-12-24 23:54:55.193000000
+End time:                 2025-01-04 16:23:51.217000000
+Disk file size (CSV):     393.322 MB
+Disk file size (Parquet): 9.039 MB
+Disk space reduction:     97.7%
+
+[13] Processing file: Toray_outer_250529_4_with_header.csv
+Start time:               2025-01-04 16:23:51.217000000
+End time:                 2025-01-15 08:53:45.960000000
+Disk file size (CSV):     393.192 MB
+Disk file size (Parquet): 8.954 MB
+Disk space reduction:     97.7%
+
+[14] Processing file: Toray_outer_250529_5_with_header.csv
+Start time:               2025-01-15 08:53:45.960000000
+End time:                 2025-01-26 03:26:41.320000000
+Disk file size (CSV):     390.648 MB
+Disk file size (Parquet): 9.184 MB
+Disk space reduction:     97.6%
+
+[15] Processing file: Toray_outer_250529_6_with_header.csv
+Start time:               2025-01-26 03:26:41.320000000
+End time:                 2025-02-05 22:06:26.423000000
+Disk file size (CSV):     389.867 MB
+Disk file size (Parquet): 9.169 MB
+Disk space reduction:     97.6%
+
+[16] Processing file: Toray_outer_250529_7_with_header.csv
+Start time:               2025-02-05 22:06:26.423000000
+End time:                 2025-02-16 16:33:55.770000000
+Disk file size (CSV):     389.099 MB
+Disk file size (Parquet): 9.202 MB
+Disk space reduction:     97.6%
+
+[17] Processing file: Toray_outer_250529_8_with_header.csv
+Start time:               2025-02-16 16:33:55.770000000
+End time:                 2025-02-27 12:17:24.317000000
+Disk file size (CSV):     390.223 MB
+Disk file size (Parquet): 8.329 MB
+Disk space reduction:     97.9%
+
+[18] Processing file: Toray_outer_250529_9_with_header.csv
+Start time:               2025-02-27 12:17:24.317000000
+End time:                 2025-03-10 09:50:35.527000000
+Disk file size (CSV):     390.287 MB
+Disk file size (Parquet): 8.024 MB
+Disk space reduction:     97.9%
+
+[19] Processing file: Toray_outer_250529_10_with_header.csv
+Start time:               2025-03-10 09:50:35.527000000
+End time:                 2025-05-29 10:46:11.080000000
+Disk file size (CSV):     346.382 MB
+Disk file size (Parquet): 7.076 MB
+Disk space reduction:     98.0%
+
+[20] Processing file: Toray_outer_250529_11_with_header.csv
+⚠ Toray_outer_250529_11_with_header.csv does not contain 'Load_Active_Power'. Skipping.

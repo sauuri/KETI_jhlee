@@ -1,0 +1,70 @@
+[STEP2] TORAY Decomposition Log
+Started at: 2025-08-01 16:23:52.455009
+
+Total parquet files: 20
+
+📄 Loaded: TORAY_inner_1_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_inner_2_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_inner_3_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_inner_4_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_inner_5_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_inner_6_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_inner_7_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_inner_8_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_inner_9_filtered.parquet  → rows: 277,169
+📄 Loaded: TORAY_outer_1_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_outer_2_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_outer_3_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_outer_4_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_outer_5_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_outer_6_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_outer_7_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_outer_8_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_outer_9_filtered.parquet  → rows: 1,000,001
+📄 Loaded: TORAY_outer_10_filtered.parquet  → rows: 886,936
+📄 Loaded: TORAY_outer_11_filtered.parquet  → rows: 815,354
+
+
+[P1730A]
+  Rows:        4,138,623
+  Time range:  2024-06-04 20:36:46.470000 ~ 2025-01-29 10:46:34.197000
+  CSV saved:   C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\csv\TORAY_P1730A_filtered_decomposed.csv
+  Parquet saved: C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\parquet\TORAY_P1730A_filtered_decomposed.parquet
+  ✅ Success
+
+[P1730B]
+  Rows:        4,138,554
+  Time range:  2024-06-04 20:36:43.223000 ~ 2025-01-29 10:46:34.423000
+  CSV saved:   C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\csv\TORAY_P1730B_filtered_decomposed.csv
+  Parquet saved: C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\parquet\TORAY_P1730B_filtered_decomposed.parquet
+  ✅ Success
+
+[P7412A_MCC]
+  Rows:        2,675,327
+  Time range:  2024-12-03 11:29:12.703000 ~ 2025-07-09 17:12:28.877000
+  CSV saved:   C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\csv\TORAY_P7412A_MCC_filtered_decomposed.csv
+  Parquet saved: C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\parquet\TORAY_P7412A_MCC_filtered_decomposed.parquet
+  ✅ Success
+
+[P7412B_MCC]
+  Rows:        2,674,204
+  Time range:  2024-12-03 11:29:12.960000 ~ 2025-07-09 17:12:29.287000
+  CSV saved:   C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\csv\TORAY_P7412B_MCC_filtered_decomposed.csv
+  Parquet saved: C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\parquet\TORAY_P7412B_MCC_filtered_decomposed.parquet
+  ✅ Success
+
+[P7412A_EXT]
+  Rows:        2,676,378
+  Time range:  2024-12-03 11:29:15.563000 ~ 2025-07-09 17:12:30.247000
+  CSV saved:   C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\csv\TORAY_P7412A_EXT_filtered_decomposed.csv
+  Parquet saved: C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\parquet\TORAY_P7412A_EXT_filtered_decomposed.parquet
+  ✅ Success
+
+[P7412B_EXT]
+  Rows:        2,676,390
+  Time range:  2024-12-03 11:29:12.330000 ~ 2025-07-09 17:12:30.657000
+  CSV saved:   C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\csv\TORAY_P7412B_EXT_filtered_decomposed.csv
+  Parquet saved: C:\Users\PC24-11\Desktop\EEMS\data\decomposed\TORAY\parquet\TORAY_P7412B_EXT_filtered_decomposed.parquet
+  ✅ Success
+
+Finished at: 2025-08-01 16:24:42.337092

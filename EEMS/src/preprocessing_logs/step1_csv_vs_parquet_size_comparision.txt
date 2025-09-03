@@ -1,0 +1,139 @@
+[1] Processing file: Toray_inner_250529_1_with_header.csv
+Start time: 2024-06-04 20:36:43.223000000
+End time:   2024-06-26 02:46:31.147000000
+Disk file size (CSV):      378.366 MB
+Disk file size (Parquet): 7.873 MB
+Disk space:                 97.9%
+
+[2] Processing file: Toray_inner_250529_2_with_header.csv
+Start time: 2024-06-26 02:46:31.147000000
+End time:   2024-07-17 09:06:21.900000000
+Disk file size (CSV):      376.178 MB
+Disk file size (Parquet): 7.811 MB
+Disk space:                 97.9%
+
+[3] Processing file: Toray_inner_250529_3_with_header.csv
+Start time: 2024-07-17 09:06:21.900000000
+End time:   2024-08-07 15:35:29.063000000
+Disk file size (CSV):      377.033 MB
+Disk file size (Parquet): 7.796 MB
+Disk space:                 97.9%
+
+[4] Processing file: Toray_inner_250529_4_with_header.csv
+Start time: 2024-08-07 15:35:29.063000000
+End time:   2024-08-28 22:08:41.087000000
+Disk file size (CSV):      377.077 MB
+Disk file size (Parquet): 7.787 MB
+Disk space:                 97.9%
+
+[5] Processing file: Toray_inner_250529_5_with_header.csv
+Start time: 2024-08-28 22:08:41.087000000
+End time:   2024-09-19 04:58:07.017000000
+Disk file size (CSV):      373.698 MB
+Disk file size (Parquet): 7.785 MB
+Disk space:                 97.9%
+
+[6] Processing file: Toray_inner_250529_6_with_header.csv
+Start time: 2024-09-19 04:58:07.017000000
+End time:   2024-12-11 19:38:51.657000000
+Disk file size (CSV):      374.216 MB
+Disk file size (Parquet): 7.913 MB
+Disk space:                 97.9%
+
+[7] Processing file: Toray_inner_250529_7_with_header.csv
+Start time: 2024-12-11 19:38:51.657000000
+End time:   2025-01-02 04:15:56.590000000
+Disk file size (CSV):      376.935 MB
+Disk file size (Parquet): 7.949 MB
+Disk space:                 97.9%
+
+[8] Processing file: Toray_inner_250529_8_with_header.csv
+Start time: 2025-01-02 04:15:56.590000000
+End time:   2025-01-23 12:46:37.523000000
+Disk file size (CSV):      374.212 MB
+Disk file size (Parquet): 7.928 MB
+Disk space:                 97.9%
+
+[9] Processing file: Toray_inner_250529_9_with_header.csv
+Start time: 2025-01-23 12:46:37.523000000
+End time:   2025-01-29 10:46:34.423000000
+Disk file size (CSV):      103.808 MB
+Disk file size (Parquet): 2.245 MB
+Disk space:                 97.8%
+
+[10] Processing file: Toray_outer_250529_1_with_header.csv
+Start time: 2024-12-03 11:29:12.330000000
+End time:   2024-12-14 07:30:37.500000000
+Disk file size (CSV):      394.116 MB
+Disk file size (Parquet): 9.631 MB
+Disk space:                 97.6%
+
+[11] Processing file: Toray_outer_250529_2_with_header.csv
+Start time: 2024-12-14 07:30:37.500000000
+End time:   2024-12-24 23:54:55.193000000
+Disk file size (CSV):      393.530 MB
+Disk file size (Parquet): 9.522 MB
+Disk space:                 97.6%
+
+[12] Processing file: Toray_outer_250529_3_with_header.csv
+Start time: 2024-12-24 23:54:55.193000000
+End time:   2025-01-04 16:23:51.217000000
+Disk file size (CSV):      393.322 MB
+Disk file size (Parquet): 8.657 MB
+Disk space:                 97.8%
+
+[13] Processing file: Toray_outer_250529_4_with_header.csv
+Start time: 2025-01-04 16:23:51.217000000
+End time:   2025-01-15 08:53:45.960000000
+Disk file size (CSV):      393.192 MB
+Disk file size (Parquet): 8.555 MB
+Disk space:                 97.8%
+
+[14] Processing file: Toray_outer_250529_5_with_header.csv
+Start time: 2025-01-15 08:53:45.960000000
+End time:   2025-01-26 03:26:41.320000000
+Disk file size (CSV):      390.648 MB
+Disk file size (Parquet): 8.920 MB
+Disk space:                 97.7%
+ 
+[15] Processing file: Toray_outer_250529_6_with_header.csv
+Start time: 2025-01-26 03:26:41.320000000
+End time:   2025-02-05 22:06:26.423000000
+Disk file size (CSV):      389.867 MB
+Disk file size (Parquet): 8.918 MB
+Disk space:                 97.7%
+
+[16] Processing file: Toray_outer_250529_7_with_header.csv
+Start time: 2025-02-05 22:06:26.423000000
+End time:   2025-02-16 16:33:55.770000000
+Disk file size (CSV):      389.099 MB
+Disk file size (Parquet): 8.933 MB
+Disk space:                 97.7%
+
+[17] Processing file: Toray_outer_250529_8_with_header.csv
+Start time: 2025-02-16 16:33:55.770000000
+End time:   2025-02-27 12:17:24.317000000
+Disk file size (CSV):      390.223 MB
+Disk file size (Parquet): 7.999 MB
+Disk space:                 98.0%
+
+[18] Processing file: Toray_outer_250529_9_with_header.csv
+Start time: 2025-02-27 12:17:24.317000000
+End time:   2025-03-10 09:50:35.527000000
+Disk file size (CSV):      390.287 MB
+Disk file size (Parquet): 7.725 MB
+Disk space:                 98.0%
+
+[19] Processing file: Toray_outer_250529_10_with_header.csv
+Start time: 2025-03-10 09:50:35.527000000
+End time:   2025-05-29 10:46:11.080000000
+Disk file size (CSV):      346.382 MB
+Disk file size (Parquet): 6.868 MB
+Disk space:                 98.0%
+
+[20] Processing file: Toray_outer_250529_11_with_header.csv
+Start time: 2025-05-29 10:46:14.320
+End time:   2025-07-09 17:12:30.657
+Disk file size (CSV):      52.088 MB
+Disk file size (Parquet): 5.961 MB
+Disk space:                 88.6%
