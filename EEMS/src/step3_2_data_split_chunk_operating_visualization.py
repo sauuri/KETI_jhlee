@@ -17,7 +17,7 @@ def process_chunk_file(file: Path, motor_name: str, save_figure_dir: Path) -> di
     Parameters
     ----------
     file : Path
-        Path to the 24h parquet file.
+        The Path to the 24h parquet file.
     motor_name : str
         Motor name (used for plot directory structure and title)
     save_figure_dir : Path
@@ -56,7 +56,7 @@ def process_chunk_file(file: Path, motor_name: str, save_figure_dir: Path) -> di
     shifted_power = df["Load_Total_Power_Consumption"] - df["Load_Total_Power_Consumption"].min()
     ax.scatter(df["collect_time"], shifted_power, s=1, label='Shifted Power')
 
-    # Compute total difference and
+    # Compute total difference and divide by 24 hours
     total_diff = df['Load_Total_Power_Consumption'].iloc[-2] - df['Load_Total_Power_Consumption'].iloc[0]
     total_diff_rate = total_diff / 24  # Wh/h
 
@@ -92,10 +92,10 @@ def process_chunk_file(file: Path, motor_name: str, save_figure_dir: Path) -> di
 
         # Display summary text box on the plot
         text_lines = [
-            f"Total period: {start_dt.strftime('%Y-%m-%d %H:%M:%S')} → {end_dt.strftime('%Y-%m-%d %H:%M:%S')}",
+            f"Total period: {start_dt.strftime('%Y-%m-%d %H:%M:%S')} -> {end_dt.strftime('%Y-%m-%d %H:%M:%S')}",
             f"Total diff (24h): {total_diff:.2f} Wh",
             f"Total diff rate: {total_diff_rate:.2f} Wh/h",
-            f"Operating period: {start_time_seg.strftime('%Y-%m-%d %H:%M:%S')} → {end_time_seg.strftime('%Y-%m-%d %H:%M:%S')}",
+            f"Operating period: {start_time_seg.strftime('%Y-%m-%d %H:%M:%S')} -> {end_time_seg.strftime('%Y-%m-%d %H:%M:%S')}",
             f"Operating duration: {operating_duration:.2f} hours",
             f"Operating diff: {operating_diff:.2f} Wh",
             f"Operating diff rate: {operating_diff_rate:.2f} Wh/h"

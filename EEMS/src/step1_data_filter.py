@@ -5,6 +5,9 @@ from natsort import os_sorted
 from datetime import datetime
 
 def read_csv_file(file: Path) -> pd.DataFrame:
+    """
+    Read a csv file and returns a pandas DataFrame
+    """
     return pd.read_csv(file)
 
 
@@ -41,8 +44,8 @@ def print_summary(df_filtered: pd.DataFrame, csv_path: Path, parquet_path: Path)
 
 
 def run_step1_main():
-    csv_dir = Path.cwd().parents[1] / "data" / "original"
-    base_output_dir = Path.cwd().parents[1] / "data" / "filtered" / "TORAY"
+    csv_dir = Path.cwd().parents[0] / "data" / "original"
+    base_output_dir = Path.cwd().parents[0] / "data" / "filtered" / "TORAY"
     csv_files = os_sorted(list(csv_dir.glob("*.csv")))
 
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
