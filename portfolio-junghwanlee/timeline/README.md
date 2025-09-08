@@ -41,7 +41,7 @@
 - **02월** — [라즈베리파이 메모리·코어 제한 / Curve Fitting](2025/2025-02_rpi_curvefit.md)  
   RPi 자원 제한 테스트, 시계열 Curve Fitting, 수식화 실험
 
-- **03월** — [PySR 실험 & Diablo 서버 세팅](2025/2025-03_pysr_diablo.md)
+- **03월** — [PySR 실험 & 서버 환경 세팅](2025/2025-03_server_setting_pysr.md)
 
 - **04월** — [Symbolic Regressor 연구](2025/2025-04_symbolic_regressor.md)
 
