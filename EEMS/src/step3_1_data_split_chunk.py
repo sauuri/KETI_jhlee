@@ -1,14 +1,17 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 from pathlib import Path
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 import time
 
 plt.rcParams['font.family'] = 'Times New Roman'
 
 '''
-(P_current + P_next) / 2 * Δt_hours는 순간 전력 데이터를
-시간 구간별 소비 전력량(Wh)으로 변환하는 사다리꼴 적분 공식임.
+(P_current + P_next) / 2 * Δt_hours is the trapezoidal integration formula
+to convert instantaneous power data into interval energy consumption (Wh).
+
+For more details, please refer to https://en.wikipedia.org/wiki/Trapezoidal_rule
 '''
 
 def get_motor_name(stem: str) -> str:
@@ -41,45 +44,44 @@ def process_file(pq_file: Path, output_dir: Path, full_hours: set, include_power
     SECONDS_PER_HOUR = 3600
 
     for date, group in df.groupby('date'):
+        group = group.copy() # protect against SettingWithCopy
         group_hours = set(group['collect_time'].dt.hour.unique())
         missing = sorted(full_hours - group_hours)
 
-        # 시간 간격 계산 (단위: hours)
+        # Calculate time difference (unit: hours)
         group['time_diff_hours'] = group['collect_time'].diff().dt.total_seconds() / SECONDS_PER_HOUR
 
         if include_power:
             # Calculate total power energy consumption (Wh) for each time interval from instantaneous active power data
 
-            # 평균 전력 계산 (사다리꼴 공식, 단위: W)
+            # Average power (trapezoidal rule, unit: W)
             group['avg_power'] = (group['Load_Active_Power'] + group['Load_Active_Power'].shift(1)) / 2
 
-            # 구간별 전력량 계산 (단위: W * hours = Wh)
+            # Interval consumption (W * hours = Wh)
             group['interval_consumption'] = group['avg_power'] * group['time_diff_hours']
 
             target_column = 'calc_load_total_power_consumption'
 
-            # 누적 전력량 계산 (단위: Wh)
+            # Cumulative energy consumption (unit: Wh)
             group[target_column] = group['interval_consumption'].cumsum()
-            target = group[target_column]  # 단위: Wh
+            target = group[target_column]  # Wh
 
         else:
             target_column = 'Load_Total_Power_Consumption'
-            target = group['Load_Total_Power_Consumption']  # 단위: Wh (원본 데이터)
+            target = group['Load_Total_Power_Consumption']  # Wh (original data)
 
-        # 총 전력 소비량 차이 (단위: Wh)
+        # Total consumption difference (unit: Wh)
         total_diff = target.iloc[-1] - target.iloc[1]
 
         reasons = []
-        if (group['time_diff_hours'][1:] >= 1).any(): # 1 = 1시간
+        if (group['time_diff_hours'][1:] >= 1).any(): # gap >= 1 hour
             reasons.append('over_1h_gap')
         if missing:
             reasons.append('missing_hour')
-
-        # 평균값이 거의 0에 가까운지 체크 (단위: Wh)
-        if target.mean() < 1e-6:    # 0.000001 Wh
+        if target.mean() < 1e-6:    # Check if mean value is nearly zero (unit: Wh) 0.000001 Wh
             reasons.append('almost_zero_mean')
 
-        MINIMUM_ENERGY_THRESHOLD = 1000  # Wh 기준
+        MINIMUM_ENERGY_THRESHOLD = 1000  # Wh threshold
         if abs(total_diff) < MINIMUM_ENERGY_THRESHOLD:
             reasons.append(f'total_consumption_under_{MINIMUM_ENERGY_THRESHOLD}Wh')
 
@@ -90,27 +92,19 @@ def process_file(pq_file: Path, output_dir: Path, full_hours: set, include_power
                 'missing_reason': ';'.join(reasons),
                 'missing_hours': missing if missing else None,
             })
-            print(f" {date} → Skip saving, reasons: {reasons}")
+            print(f" {date} -> Skip saving, reasons: {reasons}")
             continue
 
-        highlight = target[target.diff() > 1].index
-
-        # if not highlight.empty:
-        #     start_idx, end_idx = highlight[0], highlight[-1]
-        #     start_time_seg = df.loc[start_idx, 'collect_time']
-        #     end_time_seg = df.loc[end_idx, 'collect_time']
-        #     operating_duration = (end_time_seg - start_time_seg).total_seconds() / 3600
-        #     operating_diff = df.loc[end_idx, 'Load_Total_Power_Consumption'] - df.loc[
-        #         start_idx, 'Load_Total_Power_Consumption']
-        #     operating_diff_rate = operating_diff / operating_duration if operating_duration > 0 else np.nan
-
+        # Compute delta_t (hours) and average diff rate (Wh/h)
 
         start_dt = group['collect_time'].min()
         end_dt = group['collect_time'].max()
+
+        delta_t = (end_dt - start_dt).total_seconds() / 3600.0
+        diff_rate = total_diff / delta_t if delta_t > 0 else np.nan
+
         fname = f"{start_dt.strftime('%Y-%m-%d_%H%M%S')}_to_{end_dt.strftime('%Y-%m-%d_%H%M%S')}"
 
-
-        # 시각화 저장 (주석 해제 시 활성화)
         fig, ax = plt.subplots(figsize=(14, 5))
         ax.scatter(group['collect_time'], target - target.min(), s=3)
         ax.set_title(
@@ -121,60 +115,27 @@ def process_file(pq_file: Path, output_dir: Path, full_hours: set, include_power
         ax.set_ylabel(f"adjusetd {target_column}")
         ax.grid(True)
 
-        # 두 번째 y축 (오른쪽) 생성
         ax2 = ax.twinx()
         ax2.plot(group['collect_time'], target.diff(), color='red', label='Derivative', alpha=0.3, zorder=0)
         ax2.set_ylabel("Derivative", color='red')
         ax2.tick_params(axis='y', labelcolor='red')
 
-
-        # TODO(PC24-11, 2025-08-14 11:59): [span 시각화]
-
-
-
-
-
-
-
-
-
-
-        # text_lines = [
-        #     f"Total period: {start_dt.strftime('%Y-%m-%d %H:%M:%S')} → {end_dt.strftime('%Y-%m-%d %H:%M:%S')}",
-        #     f"Total diff (24h): {total_diff:.2f} Wh",
-        #     f"Total diff rate: {total_diff_rate:.2f} Wh/h",
-        #     f"Operating period: {start_time_seg.strftime('%Y-%m-%d %H:%M:%S')} → {end_time_seg.strftime('%Y-%m-%d %H:%M:%S')}",
-        #     f"Operating duration: {operating_duration:.2f} hours",
-        #     f"Operating diff: {operating_diff:.2f} Wh",
-        #     f"Operating diff rate: {operating_diff_rate:.2f} Wh/h"
-        # ]
-        #
-        # text_x = df["collect_time"].iloc[int(len(df) * 0.01)]
-        # text_y = shifted_power.min() + 0.05 * shifted_power.max()
-
-        # ax.text(
-        #     text_x,
-        #     text_y,
-        #     "\n".join(text_lines),
-        #     fontsize=11,
-        #     va='bottom',
-        #     ha='left',
-        #     bbox=dict(facecolor='white', edgecolor='gray', alpha=0.85)
-        # )
-
-        # Parquet 저장 (주석 해제 시 활성화)
         group.to_parquet(parquet_dir / f"{fname}.parquet", index=False)
         print(f" Saved: {parquet_dir / f'{fname}.parquet'}")
 
-        # saved_info.append({
-        #     'motor': motor_name,
-        #     'date': date,
-        #     'diff': total_diff,
-        #     'diff_rate': avg_wh_per_hour,
-        #     'first_value': group['Load_Total_Power_Consumption'].iloc[0],
-        #     'last_value': group['Load_Total_Power_Consumption'].iloc[-2],
-        #     'delta_t': delta_t,
-        # })
+        # Summarize saved info
+        # Note: 'first_value'/'last_value' base on chosen target series
+        saved_info.append({
+            'motor': motor_name,
+            'date': str(date),
+            'total_diff_Wh': total_diff,
+            'diff_rate_Wh_per_h': float(diff_rate) if np.isfinite(diff_rate) else None,
+            'delta_t_hours': float(delta_t),
+            'first_value_Wh': float(target.iloc[0]),
+            'last_value_Wh': float(target.iloc[-1]),
+            'start': start_dt,
+            'end': end_dt
+        })
 
         plot_fname = f"{fname}.png"
         fig.savefig(plot_dir / plot_fname, dpi=600)
@@ -185,17 +146,29 @@ def process_file(pq_file: Path, output_dir: Path, full_hours: set, include_power
 
 def find_step_changes(data, min_step_size=1000, min_duration=30):
     """
-    계단식 변화 구간 찾기
+    Detect step-like changes in power consumption data.
 
-    Parameters:
-    - data: pandas Series (전력 소비량 데이터)
-    - min_step_size: 최소 변화량 (Wh)
-    - min_duration: 최소 지속 시간 (데이터 포인트 수)
+    Parameters
+    ----------
+    data : pandas.Series
+        Power consumption data.
+    min_step_size : int, optional
+        Minimum step size to detect (Wh).
+    min_duration : int, optional
+        Minimum duration of a stable segment (number of points).
 
-    Returns:
-    - segments: 구간 정보 리스트
+    Returns
+    -------
+    list of dict
+        A list of detected segments, where each segment dictionary contains:
+        - 'start_idx' : int, start index of the segment
+        - 'end_idx'   : int, end index of the segment
+        - 'start_time': timestamp of the first point
+        - 'end_time'  : timestamp of the last point
+        - 'level'     : baseline power level of the segment
+        - 'duration'  : segment length in number of points
+        - 'type'      : segment type (e.g., 'stable')
     """
-
     segments = []
 
     if len(data) == 0:
@@ -209,7 +182,10 @@ def find_step_changes(data, min_step_size=1000, min_duration=30):
         current_value = data.iloc[i]
 
         # 현재 레벨과 큰 차이가 나면 새 구간으로 판단
+        # If there is a significant difference from the current level,
+        # consider it as the start of a new segment
         if abs(current_value - current_level) > min_step_size:
+            # If the previous segment is long enough, save it
             # 이전 구간이 충분히 길면 저장
             duration = i - segment_start_idx
             if duration > min_duration:
@@ -223,12 +199,10 @@ def find_step_changes(data, min_step_size=1000, min_duration=30):
                     'type': 'stable'
                 })
 
-            # 새 구간 시작
             segment_start_idx = i
             segment_start_time = data.index[i]
             current_level = current_value
 
-    # 마지막 구간 처리
     final_duration = len(data) - segment_start_idx
     if final_duration > min_duration:
         segments.append({
@@ -241,7 +215,7 @@ def find_step_changes(data, min_step_size=1000, min_duration=30):
             'type': 'stable'
         })
 
-    return segments
+    return segments # list of segment dictionaries with start/end info
 
 
 def main():
