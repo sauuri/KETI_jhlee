@@ -98,7 +98,7 @@ src/
 ---
 
 ## 👤 Author
-**Jeonghwan Lee (이정환)**  
+**Junghwan Lee (이정환)**  
 Researcher, Intelligent Mechatronics Research Center, KETI  
 
 📅 *Document last updated: 2025.08.14*
