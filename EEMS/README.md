@@ -78,19 +78,21 @@ EEMS Original Data (CSV)
 
 ## 📂 Project Directory Structure
 ```
-data/
-├─ original/ # Raw CSV files
-├─ filtered/ # Step1 outputs (parquet)
-├─ decomposed/ # Step2 outputs (by motor)
-├─ chunked/ # Step3 outputs (24h parquets, plots, well plots)
-└─ preprocessing_results/
-├─ missing_24h_summary.csv
-├─ saved_24h_summary.csv
-├─ max_diff_rate_dates_*.csv
-└─ preprocessing_logs/
-├─ step1_csv_vs_parquet_size_comparision.txt
-├─ step2_device_motor_decomposition_log.txt
-└─ step4_max_diff_rate_date.txt
+data/  
+├─ original/ # Raw CSV files  
+├─ filtered/ # Step1 outputs (parquet)  
+├─ decomposed/ # Step2 outputs (by motor)  
+└─ chunked/ # Step3 outputs (24h parquets, plots, well plots)  
+  
+src/  
+├─ preprocessing_results/  
+│  ├─ missing_24h_summary.csv  
+│  ├─ saved_24h_summary.csv  
+│  └─ max_diff_rate_dates_*.csv  
+└─ preprocessing_logs/  
+   ├─ step1_csv_vs_parquet_size_comparision.txt  
+   ├─ step2_device_motor_decomposition_log.txt  
+   └─ step4_max_diff_rate_date.txt  
 ```
 
 ---
