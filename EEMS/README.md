@@ -77,7 +77,7 @@ EEMS Original Data (CSV)
 ---
 
 ## 📂 Project Directory Structure
-```
+```bash
 data/  
 ├─ original/ # Raw CSV files  
 ├─ filtered/ # Step1 outputs (parquet)  
