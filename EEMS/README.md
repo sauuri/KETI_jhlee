@@ -9,18 +9,12 @@ The workflow is divided into multiple steps, each producing intermediate results
 ## Data Processing Flow
 ```
 EEMS Original Data (CSV)
-   ↓ step1_data_filter.py
-      Filtered Data (Parquet)
-   ↓ step2_data_decomposed.py
-      Decomposed Data (by motor)
-   ↓ step3_data_split_chunk.py
-      24h Valid Segment Extraction + Operating Section Visualization
-   ↓ step3-2_data_split_chunk_operating_visualization.py
-      Operating Segment Detection + Calculated Value Plot
-   ↓ step4_select_max_diffrate_date.py
-      Motor Pairwise Max diff_rate Date Comparison
+   ↓ `step1_data_filter.py` → Filtered Data (Parquet)
+   ↓ `step2_data_decomposed.py` → Decomposed Data (by motor)
+   ↓ `step3_data_split_chunk.py` → 24h Valid Segment Extraction + Operating Section Visualization
+   ↓ `step3-2_data_split_chunk_operating_visualization.py` → Operating Segment Detection + Calculated Value Plot
+   ↓ `step4_select_max_diffrate_date.py` → Motor Pairwise Max diff_rate Date Comparison
 ```
-
 
 
 ## 📝 Step Descriptions
