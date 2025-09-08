@@ -1,7 +1,7 @@
 # Junghwan Lee – Portfolio (2024.04 ~ 2025.09)
 
-Signal Processing × Edge AI × Optimization  
-실제 산업 데이터(EEMS, 모터/팬) 기반의 분석·시각화·최적화 프로젝트를 정리했습니다.
+Signal Processing × Embedded Systems × Optimization  
+실제 산업 데이터(EEMS, 모터/팬) 기반의 데이터 처리, 시각화 및 최적화 프로젝트를 정리했습니다.
 
 ---
 
