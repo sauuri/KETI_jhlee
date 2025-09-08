@@ -7,7 +7,7 @@ The workflow is divided into multiple steps, each producing intermediate results
 📑 For more details, please refer to [docs/slides/KETI_EEMS_TORAY_이정환.pdf](docs/slides/KETI_EEMS_TORAY_이정환.pdf).  
 
 ## Data Processing Flow
-```
+```bash
 EEMS Original Data (CSV)
    ↓ `step1_data_filter.py` → Filtered Data (Parquet)
    ↓ `step2_data_decomposed.py` → Decomposed Data (by motor)
