@@ -5,7 +5,7 @@ The pipeline converts raw CSV files into structured, cleaned, and analyzed datas
 The workflow is divided into multiple steps, each producing intermediate results and logs for reproducibility.  
 
 ## Data Processing Flow
-"""
+'''
 EEMS Original Data (CSV)
    ↓ step1_data_filter.py
       Filtered Data (Parquet)
@@ -17,7 +17,7 @@ EEMS Original Data (CSV)
       Operating Segment Detection + Calculated Value Plot
    ↓ step4_select_max_diffrate_date.py
       Motor Pairwise Max diff_rate Date Comparison
-"""
+'''
 
 
 
@@ -80,7 +80,7 @@ EEMS Original Data (CSV)
 ---
 
 ## 📂 Project Directory Structure
-"""
+'''
 data/
 ├─ original/ # Raw CSV files
 ├─ filtered/ # Step1 outputs (parquet)
@@ -94,7 +94,7 @@ data/
 ├─ step1_csv_vs_parquet_size_comparision.txt
 ├─ step2_device_motor_decomposition_log.txt
 └─ step4_max_diff_rate_date.txt
-"""
+'''
 
 ---
 
