@@ -2,7 +2,9 @@
 ## Overview
 This project is part of the **EEMS (Energy Efficiency Management System)** at KETI, focusing on analyzing Toray motor power consumption data.  
 The pipeline converts raw CSV files into structured, cleaned, and analyzed dataset with visualization outputs.  
-The workflow is divided into multiple steps, each producing intermediate results and logs for reproducibility.  
+The workflow is divided into multiple steps, each producing intermediate results and logs for reproducibility. 
+  
+📑 For more details, please refer to [docs/slides](https://github.com/KETH_jhlee/EEMS/docs/slides).  
 
 ## Data Processing Flow
 ```
@@ -74,7 +76,8 @@ EEMS Original Data (CSV)
   - Select date range with maximum difference rate
 - **Output**:
   - `max_diff_rate_dates_{motor1}_{motor2}.csv`
-  - `step4_max_diff_rate_date.txt`  
+  - `step4_max_diff_rate_date.txt`
+    
 ⚠️ **Limitations**: Results may capture large variations unrelated to actual equipment/construction changes, limiting generalization and decision-making reliability.
 
 ---
