@@ -4,7 +4,7 @@ This project is part of the **EEMS (Energy Efficiency Management System)** at KE
 The pipeline converts raw CSV files into structured, cleaned, and analyzed dataset with visualization outputs.  
 The workflow is divided into multiple steps, each producing intermediate results and logs for reproducibility. 
   
-📑 For more details, please refer to [docs/slides](https://github.com/KETH_jhlee/EEMS/docs/slides).  
+📑 For more details, please refer to [docs/slides](https://github.com/KETI_jhlee/EEMS/docs/slides).  
 
 ## Data Processing Flow
 ```
