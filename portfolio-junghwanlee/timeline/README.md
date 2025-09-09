@@ -7,8 +7,8 @@
 
 ## 2024
 
-- **2024.04** — [모터 데이터 FFT 분석](2024/2024-04_fft_motor/README.md)  
-  모터 진동 데이터 기반 FFT 분석, 이상 신호 탐지
+- **2024.04** — [모터 데이터 FFT 분석](2024/2024-04_fft_motor) ✅  
+  Vibration CSV data preprocessing and outlier removal visualization 
 
 - **2024.05** — [4세부 유체기기 프로젝트](2024/2024-05_keti_surve_pc/README.md)  
   `KETI_jhlee_surve_PC` / HTML, Protocol 알고리즘 작성
