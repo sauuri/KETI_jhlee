@@ -1,8 +1,8 @@
-📑 **Research Note: Response Surface Visualization & Error Analysis (Blower/Pump Data)**  
+# 📑 Research Note: Response Surface Visualization & Error Analysis (Blower/Pump Data)
 
 ---
 
-### 🔹 Process  
+## 🔹 Process  
 1. **CSV Data Loading**  
    - `pandas.read_csv()` (`low_memory=False`, UTF-8 / cp949)  
    - Remove missing values with `dropna()`  
@@ -24,7 +24,7 @@
 
 ---
 
-### 🔹 Purpose  
+## 🔹 Purpose  
 - To visualize and compare model predictions with ground truth data  
 - To check not only global R² but also **local Absolute Errors**  
 - To highlight uncertain regions using **confidence intervals**  
@@ -32,14 +32,14 @@
 
 ---
 
-### 🔹 Results  
+## 🔹 Results  
 - High R² (≈0.99) observed globally, but **large local errors** in specific regions  
 - Error bars revealed where predictions diverge most  
 - Confidence interval planes (±95%) showed uncertainty zones around predictions  
 
 ---
 
-### 🔹 Next Steps  
+## 🔹 Next Steps  
 - Add multiple confidence levels (90%, 95%, 99%) for deeper comparison  
 - Automate AE + error bar calculation and plotting  
 - Develop optimization routine to minimize variance of local errors  
