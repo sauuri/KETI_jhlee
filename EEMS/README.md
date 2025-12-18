@@ -75,6 +75,13 @@ EEMS Original Data (CSV)
 ⚠️ **Limitations**: Results may capture large variations unrelated to actual equipment/construction changes, limiting generalization and decision-making reliability.
 
 ---
+## 🔑 Key Takeaways
+```bash
+- Data preprocessing is a critical step in any data science project.  
+- Data cleaning and preprocessing are essential for accurate analysis and modeling.  
+- Data visualization is an important tool for understanding and communicating results. 
+```
+---
 
 ## 📂 Project Directory Structure
 ```bash
