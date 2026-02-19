@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/03e36c80-8000-43e6-a373-cdc42298109a" />
+
 # EC-Fan 모터 3목적 다목적 최적화 (NSGA-III)
 
 ## 개요
@@ -21,4 +23,3 @@
 ## 키워드
 EC-Fan, Motor Optimization, Multi-objective Optimization, Genetic Algorithm, NSGA-III, Pareto Front, Torque Ripple, Cogging Torque, Efficiency
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/03e36c80-8000-43e6-a373-cdc42298109a" />
