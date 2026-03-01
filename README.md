@@ -57,3 +57,4 @@
 - **Center**: Intelligent Mechatronics Research Center (지능메카트로닉스연구센터)  
 - **Team**: Thermal-Fluid Application Technology Research Team (열유체 응용기술연구팀)  
 - **Role**: Researcher / Data Processing & Optimization for Industrial Motor & Fan Systems
+
