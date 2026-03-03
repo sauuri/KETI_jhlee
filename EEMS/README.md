@@ -59,6 +59,7 @@ EEMS Original Data (CSV)
   - Highlight operating ranges in **orange** on plots
   - Compare total vs operating consumption
 - **Output**: `well plots/*.png` (with operating sections highlighted)
+<img width="938" height="590" alt="image" src="https://github.com/user-attachments/assets/60c1121a-f0c5-4a14-a2e5-a69a5b5aa677" />
 
 ---
 
