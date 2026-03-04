@@ -12,9 +12,10 @@ Board_Setup/
 │   ├── 라즈베리파이 pip list 설치(requirements).pdf
 │   ├── 라즈베리파이 메모리 할당 결과 정리.pdf
 │   └── RaspberryPi_clock_speed_bashrc.jpg
-└── Variscite/
-    ├── Variscite 보드 시스템 사양 및 운영환경 정리.pdf
-    └── Varisite_보드_pip3_install_numpy_실패.txt
+├── Variscite/
+│   ├── Variscite 보드 시스템 사양 및 운영환경 정리.pdf
+│   └── Varisite_보드_pip3_install_numpy_실패.txt
+└── variscite_dart6ul_board.jpg
 ```
 
 ---
@@ -101,6 +102,15 @@ Raspberry Pi 5에서 대용량 데이터 처리 시 메모리 효율을 검토�
 index = (x * cols * depth) + (y * depth) + z
 element_address = base_address + index * sizeof(c_float)
 ```
+
+---
+
+## 보드 실물 사진
+
+![Variscite DART-6UL Board](variscite_dart6ul_board.jpg)
+
+> Variscite DART-6UL 기반 OS_Controller_Math v0.99 보드 (2025.03.04)
+> 터미널 블록(초록색 커넥터), Ethernet, 전원 커넥터가 장착된 상태
 
 ---
 
