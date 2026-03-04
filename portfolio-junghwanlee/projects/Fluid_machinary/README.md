@@ -18,7 +18,7 @@
 
 요구 유량(q_demand)이 주어졌을 때, 전력이 최소화되는 **최적 stroke**를 탐색하는 파이프라인.
 
-![flowchart](optimization/plots/flowrate_to_stroke_flowchart.drawio.png)
+![flowchart](symbolic_regression/plots/flowrate_to_stroke_flowchart.drawio.png)
 
 | 단계 | 내용 |
 |------|------|
@@ -34,17 +34,17 @@
 
 ### 2D P-Q Curve + Power + Optimal Stroke Points
 
-![2D P-Q](optimization/plots/2D_P-Q_Curve+Power+Optimal_Stroke.png)
+![2D P-Q](symbolic_regression/plots/2D_P-Q_Curve+Power+Optimal_Stroke.png)
 
 > stroke 5~40 범위에서 각 요구 유량(q_demand: 50~600)별 최소 전력 지점과 optimal stroke를 표시
 
 ### 3D P-Q Curve + Power + Optimal Stroke
 
-![3D P-Q](optimization/plots/3D_P-Q_Curve+Power+Optimal_Storke.png)
+![3D P-Q](symbolic_regression/plots/3D_P-Q_Curve+Power+Optimal_Storke.png)
 
 ### P-Q 교차점 탐색
 
-![intersect](optimization/plots/Find_intersect_points_in_2D_P_Q_curve.png)
+![intersect](symbolic_regression/plots/Find_intersect_points_in_2D_P_Q_curve.png)
 
 ---
 
@@ -118,7 +118,7 @@ random_state = 42
 
 ### 7개 Stroke 데이터 실험 결과
 
-![per-stroke](optimization/plots/flowrate_head_visualization_per_stroke.png)
+![per-stroke](symbolic_regression/plots/flowrate_head_visualization_per_stroke.png)
 
 | Stroke | a | b | c | d | e | RMSE | R² |
 |--------|---|---|---|---|---|------|----|
@@ -142,7 +142,7 @@ stroke 값을 입력으로 받아 수식의 각 계수(a~e)를 예측하는 모�
 X_train → Stroke,  y_train → a (또는 b, c, d, e)
 ```
 
-![PySR early stopping](optimization/plots/PySR_early_stopping_qkey_enter_result.png)
+![PySR early stopping](symbolic_regression/plots/PySR_early_stopping_qkey_enter_result.png)
 
 ### 실험 (1) — LinearRegression
 
